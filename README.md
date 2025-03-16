@@ -33,6 +33,6 @@
 
 👉 **Desenvolvido por:** _Tainá Saboia_  
 👉 **Professora Homologadora na Faculdade Dunamis**  
-📧 **Email:** _seu@email.com_  
+📧 **Email:** _tainasaboia@gmail.com_  
 👉 **GitHub:** [github.com/tasaboia](https://github.com/tasaboia)  
 👉 **LinkedIn:** [linkedin.com/in/tasaboia](https://linkedin.com/in/tasaboia)
