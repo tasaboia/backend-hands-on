@@ -22,7 +22,7 @@ export class AuthService {
       }
 
       return user;
-    } catch (error) {
+    } catch (error: any) {
       throw new InternalServerErrorException(
         `Erro ao buscar usuário: ${error.message}`,
       );
