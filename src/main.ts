@@ -7,11 +7,11 @@ async function bootstrap() {
   const logger = new Logger('Bootstrap');
 
   app.enableCors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+    origin: process.env.FRONTEND_URL || 'http://localhost:3001',
     credentials: true,
   });
 
-  const PORT = process.env.PORT || 3001;
+  const PORT = process.env.PORT || 3000;
   await app.listen(PORT);
   logger.log(`🚀 Backend rodando em http://localhost:${PORT}`);
 }

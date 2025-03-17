@@ -17,6 +17,12 @@
   desenvolvido exclusivamente para os alunos do curso. O conteúdo é de uso acadêmico e tem propósito educacional.
 </p>
 
+## 📖 Documentação da API
+
+A API está documentada no Postman para facilitar os testes e a integração.
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/20143935/2sAYkBthDi)
+
 ---
 
 ## 🌟 **Funcionalidades**
