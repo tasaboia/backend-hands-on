@@ -9,7 +9,6 @@ COPY package*.json ./
 COPY tsconfig*.json ./
 COPY prisma ./prisma/
 COPY src ./src/
-COPY .env .env
 
 # Instala dependências
 RUN npm install
