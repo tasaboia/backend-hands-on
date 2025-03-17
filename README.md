@@ -4,34 +4,47 @@
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  
 </p>
 
-<p align="center">
-  API backend desenvolvida com <strong>NestJS + Prisma ORM</strong>, oferecendo um <strong>mural de pedidos de oração e testemunhos</strong>. <br />
+## 📌 **Sobre o Projeto**
 
-</p>
+O **Backend Hands-On** é uma API desenvolvida com **NestJS + Prisma ORM**, que oferece um **mural de pedidos de oração e testemunhos**.
 
-<p align="center">
-  Este projeto faz parte de uma atividade <strong>hands-on</strong> da <a href="https://www.faculdadedunamis.com.br/">Faculdade Dunamis</a>, 
-  desenvolvido exclusivamente para os alunos do curso. O conteúdo é de uso acadêmico e tem propósito educacional.
-</p>
+Este projeto faz parte de uma atividade prática (**hands-on**) da [Faculdade Dunamis](https://www.faculdadedunamis.com.br/), desenvolvido exclusivamente para fins acadêmicos e educacionais.
 
-## 📖 Documentação da API
+---
 
-A API está documentada no Postman para facilitar os testes e a integração.
+## 📖 **Documentação da API**
+
+A API está documentada no Postman para facilitar testes e integração:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/20143935/2sAYkBthDi)
 
 ---
 
-## 🌟 **Funcionalidades**
+## 🚀 **Deploy e CI/CD no Azure**
 
-✔️ Cadastro e gerenciamento de **pedidos de oração**  
-✔️ Compartilhamento de **testemunhos**  
-✔️ Sistema de **comentários** em pedidos e testemunhos  
-✔️ Banco de dados **PostgreSQL** gerenciado via **Prisma ORM**  
-✔️ Integração com **Next.js** para consumir a API
+O deploy da aplicação é totalmente automatizado via **GitHub Actions**, garantindo **entrega contínua (CI/CD)** para um **Azure Web App (Container)**.
+
+### 🔹 **Fluxo do Deploy**
+
+1. A cada **push na branch `main`**, o **GitHub Actions** é acionado.
+2. A API é **construída como uma imagem Docker**.
+3. A imagem é publicada no **GitHub Container Registry (GHCR)**.
+4. O **Azure Web App** recebe automaticamente a nova versão.
+
+Isso permite que a aplicação esteja sempre atualizada, sem necessidade de deploy manual.
+
+---
+
+## 🛠 **Tecnologias Utilizadas**
+
+- **NestJS** – Framework para construção da API
+- **Prisma ORM** – Gerenciamento do banco de dados
+- **PostgreSQL** – Banco de dados relacional
+- **Docker** – Containerização da aplicação
+- **GitHub Actions** – Automação de CI/CD
+- **Azure Web App** – Infraestrutura para hospedagem
 
 ---
 
